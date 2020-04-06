@@ -1,0 +1,79 @@
+/*Style sheet created fpr externalstyle. It is possible to reuse this file as many as you would like.*/
+h1{
+
+	/*background-color: #B3B3B3;*/ /*Grey*/
+	/*font-size: 150%;*/
+	
+}
+header{
+	background: #666666;
+	text-align: center;
+	padding: 15px;
+}
+
+header, footer{
+	background: #666666;
+	background: -moz-linear-gradient(top, #666666 0%, #00b7ea 100%);
+	background: -webkit-linear-gradient(#666666 0%, #00b7ea 100%);
+	background: -o-linear-gradient(#666666 0%, #00b7ea 100%);
+	background: linear-gradient(#666666 0%, #00b7ea 100%); 
+}
+
+h1{
+	color: #FFFFFF;
+}
+nav{
+	font-variant: small-caps;
+	font-size: 150%;
+	font-family: "Arial";
+	line-height: 150%;
+}
+nav a {
+	background-color: #ffffff;
+	width: 25%;
+	display: inline-block;
+}
+body{
+	font-family: "Arial";
+	background-color: #B3B3B3;
+	margin: 5%
+}
+h2{
+	color: #666666;
+	background:#00B7ea;
+	
+}
+details{
+	font-style: italic;
+	text-align: justify;
+
+}
+summary{
+	font-style: normal;
+}
+footer{
+	
+	clear: both;
+
+}
+
+/*section{
+	width: 30%;
+	display: block;
+	margin-right:2%;
+	float: left;
+}*/
+.half{
+	width: 45%;
+	display: block;
+	margin-right:2%;
+	float: left;
+}
+
+.whole{
+	clear: both;
+}
+
+img{
+	width: 75px;
+}
